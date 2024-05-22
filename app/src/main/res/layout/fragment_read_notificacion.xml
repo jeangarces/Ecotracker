@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notificacion.read_notificacion">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/text_read_id_notificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de la Notificación" />
+
+        <Button
+            android:id="@+id/btn_read_notificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Notificación" />
+
+        <EditText
+            android:id="@+id/text_read_id_usuario_destinatario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID del Usuario Destinatario"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/text_read_contenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contenido"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/text_read_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/text_read_fecha_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha y Hora"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/text_read_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado"
+            android:enabled="false" />
+    </LinearLayout>
+
+
+</FrameLayout>

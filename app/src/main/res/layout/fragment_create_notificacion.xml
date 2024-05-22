@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notificacion.create_notificacion">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/text_create_id_notificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID de la Notificación" />
+
+        <EditText
+            android:id="@+id/text_create_id_usuario_destinatario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID del Usuario Destinatario" />
+
+        <EditText
+            android:id="@+id/text_create_contenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contenido" />
+
+        <EditText
+            android:id="@+id/text_create_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo" />
+
+        <EditText
+            android:id="@+id/text_create_fecha_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha y Hora" />
+
+        <EditText
+            android:id="@+id/text_create_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado" />
+
+        <Button
+            android:id="@+id/btn_create_notificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear Notificación" />
+    </LinearLayout>
+
+
+</FrameLayout>

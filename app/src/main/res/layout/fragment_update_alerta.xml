@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.alerta.update_alerta">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <EditText
+        android:id="@+id/text_id_alerta_actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID de la Alerta a Actualizar" />
+
+    <EditText
+        android:id="@+id/text_nueva_ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Ubicación" />
+
+    <EditText
+        android:id="@+id/text_nueva_fecha_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Fecha y Hora" />
+
+        <EditText
+            android:id="@+id/text_nueva_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nueva Descripcion" />
+        <EditText
+            android:id="@+id/text_nueva_gravedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nuevo Nivel de Gravedad" />
+    <EditText
+        android:id="@+id/text_nuevo_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Estado" />
+
+    <Button
+        android:id="@+id/btn_actualizar_alerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar alerta" />
+    </LinearLayout>
+
+</FrameLayout>

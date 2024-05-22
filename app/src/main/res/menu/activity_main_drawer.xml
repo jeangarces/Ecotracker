@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/usuario"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Usuario" />
+
+        <item
+            android:id="@+id/ubicacion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ubicacion" />
+
+        <item
+            android:id="@+id/reporte"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reporte" />
+
+        <item
+            android:id="@+id/notificacion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notificacion" />
+
+        <item
+            android:id="@+id/comentario"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Comentario" />
+
+        <item
+            android:id="@+id/campana"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Campaña" />
+
+        <item
+            android:id="@+id/alerta"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Alerta" />
+    </group>
+</menu>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.budetbuddy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.budetbuddy.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.budetbuddy.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/usuario"
+        android:name="com.example.budetbuddy.ui.usuario.Usuario"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" />
+    <fragment
+        android:id="@+id/create_usuario"
+        android:name="com.example.budetbuddy.ui.usuario.create_usuario"
+        android:label="fragment_create_usuario"
+        tools:layout="@layout/fragment_create_usuario" />
+    <fragment
+        android:id="@+id/read_usuario"
+        android:name="com.example.budetbuddy.ui.usuario.read_usuario"
+        android:label="fragment_read_usuario"
+        tools:layout="@layout/fragment_read_usuario" />
+    <fragment
+        android:id="@+id/update_usuario"
+        android:name="com.example.budetbuddy.ui.usuario.update_usuario"
+        android:label="fragment_update_usuario"
+        tools:layout="@layout/fragment_update_usuario" />
+    <fragment
+        android:id="@+id/delete_usuario"
+        android:name="com.example.budetbuddy.ui.usuario.delete_usuario"
+        android:label="fragment_delete_usuario"
+        tools:layout="@layout/fragment_delete_usuario" />
+    <fragment
+        android:id="@+id/ubicacion"
+        android:name="com.example.budetbuddy.ui.ubicacion.Ubicacion"
+        android:label="fragment_ubicacion"
+        tools:layout="@layout/fragment_ubicacion" />
+    <fragment
+        android:id="@+id/create_ubicacion"
+        android:name="com.example.budetbuddy.ui.ubicacion.create_ubicacion"
+        android:label="fragment_create_ubicacion"
+        tools:layout="@layout/fragment_create_ubicacion" />
+    <fragment
+        android:id="@+id/read_ubicacion"
+        android:name="com.example.budetbuddy.ui.ubicacion.read_ubicacion"
+        android:label="fragment_read_ubicacion"
+        tools:layout="@layout/fragment_read_ubicacion" />
+    <fragment
+        android:id="@+id/update_ubicacion"
+        android:name="com.example.budetbuddy.ui.ubicacion.update_ubicacion"
+        android:label="fragment_update_ubicacion"
+        tools:layout="@layout/fragment_update_ubicacion" />
+    <fragment
+        android:id="@+id/delete_ubicacion"
+        android:name="com.example.budetbuddy.ui.ubicacion.delete_ubicacion"
+        android:label="fragment_delete_ubicacion"
+        tools:layout="@layout/fragment_delete_ubicacion" />
+    <fragment
+        android:id="@+id/reporte"
+        android:name="com.example.budetbuddy.ui.reporte.Reporte"
+        android:label="fragment_reporte"
+        tools:layout="@layout/fragment_reporte" />
+    <fragment
+        android:id="@+id/create_reporte"
+        android:name="com.example.budetbuddy.ui.reporte.create_reporte"
+        android:label="fragment_create_reporte"
+        tools:layout="@layout/fragment_create_reporte" />
+    <fragment
+        android:id="@+id/read_reporte"
+        android:name="com.example.budetbuddy.ui.reporte.read_reporte"
+        android:label="fragment_read_reporte"
+        tools:layout="@layout/fragment_read_reporte" />
+    <fragment
+        android:id="@+id/update_reporte"
+        android:name="com.example.budetbuddy.ui.reporte.update_reporte"
+        android:label="fragment_update_reporte"
+        tools:layout="@layout/fragment_update_reporte" />
+    <fragment
+        android:id="@+id/delete_reporte"
+        android:name="com.example.budetbuddy.ui.reporte.delete_reporte"
+        android:label="fragment_delete_reporte"
+        tools:layout="@layout/fragment_delete_reporte" />
+    <fragment
+        android:id="@+id/notificacion"
+        android:name="com.example.budetbuddy.ui.notificacion.Notificacion"
+        android:label="fragment_notificacion"
+        tools:layout="@layout/fragment_notificacion" />
+    <fragment
+        android:id="@+id/create_notificacion"
+        android:name="com.example.budetbuddy.ui.notificacion.create_notificacion"
+        android:label="fragment_create_notificacion"
+        tools:layout="@layout/fragment_create_notificacion" />
+    <fragment
+        android:id="@+id/read_notificacion"
+        android:name="com.example.budetbuddy.ui.notificacion.read_notificacion"
+        android:label="fragment_read_notificacion"
+        tools:layout="@layout/fragment_read_notificacion" />
+    <fragment
+        android:id="@+id/update_notificacion"
+        android:name="com.example.budetbuddy.ui.notificacion.update_notificacion"
+        android:label="fragment_update_notificacion"
+        tools:layout="@layout/fragment_update_notificacion" />
+    <fragment
+        android:id="@+id/delete_notificacion"
+        android:name="com.example.budetbuddy.ui.notificacion.delete_notificacion"
+        android:label="fragment_delete_notificacion"
+        tools:layout="@layout/fragment_delete_notificacion" />
+    <fragment
+        android:id="@+id/comentario"
+        android:name="com.example.budetbuddy.ui.comentario.Comentario"
+        android:label="fragment_comentario"
+        tools:layout="@layout/fragment_comentario" />
+    <fragment
+        android:id="@+id/create_comentario"
+        android:name="com.example.budetbuddy.ui.comentario.create_comentario"
+        android:label="fragment_create_comentario"
+        tools:layout="@layout/fragment_create_comentario" />
+    <fragment
+        android:id="@+id/read_comentario"
+        android:name="com.example.budetbuddy.ui.comentario.read_comentario"
+        android:label="fragment_read_comentario"
+        tools:layout="@layout/fragment_read_comentario" />
+    <fragment
+        android:id="@+id/update_comentario"
+        android:name="com.example.budetbuddy.ui.comentario.update_comentario"
+        android:label="fragment_update_comentario"
+        tools:layout="@layout/fragment_update_comentario" />
+    <fragment
+        android:id="@+id/delete_comentario"
+        android:name="com.example.budetbuddy.ui.comentario.delete_comentario"
+        android:label="fragment_delete_comentario"
+        tools:layout="@layout/fragment_delete_comentario" />
+    <fragment
+        android:id="@+id/campana"
+        android:name="com.example.budetbuddy.ui.campana.Campana"
+        android:label="fragment_campana"
+        tools:layout="@layout/fragment_campana" />
+    <fragment
+        android:id="@+id/create_campana"
+        android:name="com.example.budetbuddy.ui.campana.create_campana"
+        android:label="fragment_create_campana"
+        tools:layout="@layout/fragment_create_campana" />
+    <fragment
+        android:id="@+id/read_campana"
+        android:name="com.example.budetbuddy.ui.campana.read_campana"
+        android:label="fragment_read_campana"
+        tools:layout="@layout/fragment_read_campana" />
+    <fragment
+        android:id="@+id/update_campana"
+        android:name="com.example.budetbuddy.ui.campana.update_campana"
+        android:label="fragment_update_campana"
+        tools:layout="@layout/fragment_update_campana" />
+    <fragment
+        android:id="@+id/delete_campana"
+        android:name="com.example.budetbuddy.ui.campana.delete_campana"
+        android:label="fragment_delete_campana"
+        tools:layout="@layout/fragment_delete_campana" />
+    <fragment
+        android:id="@+id/alerta"
+        android:name="com.example.budetbuddy.ui.alerta.Alerta"
+        android:label="fragment_alerta"
+        tools:layout="@layout/fragment_alerta" />
+    <fragment
+        android:id="@+id/create_alerta"
+        android:name="com.example.budetbuddy.ui.alerta.create_alerta"
+        android:label="fragment_create_alerta"
+        tools:layout="@layout/fragment_create_alerta" />
+    <fragment
+        android:id="@+id/read_alerta"
+        android:name="com.example.budetbuddy.ui.alerta.read_alerta"
+        android:label="fragment_read_alerta"
+        tools:layout="@layout/fragment_read_alerta" />
+    <fragment
+        android:id="@+id/update_alerta"
+        android:name="com.example.budetbuddy.ui.alerta.update_alerta"
+        android:label="fragment_update_alerta"
+        tools:layout="@layout/fragment_update_alerta" />
+    <fragment
+        android:id="@+id/delete_alerta"
+        android:name="com.example.budetbuddy.ui.alerta.delete_alerta"
+        android:label="fragment_delete_alerta"
+        tools:layout="@layout/fragment_delete_alerta" />
+</navigation>
