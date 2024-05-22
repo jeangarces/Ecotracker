@@ -42,7 +42,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Latitud"
-            android:inputType="text" />
+            android:inputType="text"
+            android:enabled="false" />
 
         <EditText
             android:id="@+id/text_read_longitud"
@@ -50,7 +51,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Longitud"
-            android:inputType="text" />
+            android:inputType="text"
+            android:enabled="false" />
 
         <EditText
             android:id="@+id/text_read_direcc"
@@ -58,7 +60,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Direccion"
-            android:inputType="text" />
+            android:inputType="text"
+            android:enabled="false" />
 
         <EditText
             android:id="@+id/text_read_ciudad"
@@ -66,7 +69,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Ciudad"
-            android:inputType="text" />
+            android:inputType="text"
+            android:enabled="false" />
 
         <EditText
             android:id="@+id/text_read_pais"
@@ -74,7 +78,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Pais"
-            android:inputType="text" />
+            android:inputType="text"
+            android:enabled="false" />
 
         <Button
             android:id="@+id/btn_read_ubi"

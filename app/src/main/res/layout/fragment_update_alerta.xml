@@ -5,19 +5,35 @@
     android:layout_height="match_parent"
     tools:context=".ui.alerta.update_alerta">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
 
-    <EditText
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar alerta"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
         android:id="@+id/text_id_alerta_actualizar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="ID de la Alerta a Actualizar" />
 
-    <EditText
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <EditText
         android:id="@+id/text_nueva_ubicacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

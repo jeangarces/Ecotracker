@@ -5,11 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".ui.notificacion.read_notificacion">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Notificacion"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/text_read_id_notificacion"
@@ -17,11 +25,13 @@
             android:layout_height="wrap_content"
             android:hint="ID de la Notificación" />
 
-        <Button
-            android:id="@+id/btn_read_notificacion"
+        <TextView
+            android:id="@+id/textView34"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Buscar Notificación" />
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/text_read_id_usuario_destinatario"
@@ -57,6 +67,12 @@
             android:layout_height="wrap_content"
             android:hint="Estado"
             android:enabled="false" />
+
+        <Button
+            android:id="@+id/btn_read_notificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar Notificación" />
     </LinearLayout>
 
 
